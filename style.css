@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    /* min-width: 100%; */
+    display: block;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+a {
+    background: hsl(0, 0%, 95%);
+    color: inherit;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+div {
+    padding: 2em;
+}
+
+.sedan-section {
+    background: hsl(31, 77%, 52%);
+}
+
+.suv-section {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury-section {
+    background: hsl(179, 100%, 13%);
+}
+
+.sedan-image {
+    width: 5em;
+}
