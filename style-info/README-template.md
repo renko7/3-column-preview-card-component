@@ -46,6 +46,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+I first created the mobile layout of the website by creating just three divs. To move to a row layout at 800px I used a media query and wrapped the car sections into a container.
+
 ### Built with
 
 - Semantic HTML5 markup
