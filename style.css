@@ -11,6 +11,7 @@ body {
 img {
     width: 50px;
     display: block;
+    margin-bottom: 2em;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     margin-top: 0;
+    text-transform: uppercase;
 }
 
 a {
@@ -25,6 +27,7 @@ a {
     padding: 0.5em 1.25em;
     border-radius: 20px;
     text-decoration: none;
+    margin-bottom: 2em;
 }
 
 .sedan-section > a {
@@ -41,10 +44,12 @@ a {
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2em;
+    line-height: 1.5;
 }
 
 div {
-    padding: 2em;
+    padding: 3em;
 }
 
 .sedan-section {
@@ -61,4 +66,26 @@ div {
 
 .sedan-image {
     width: 5em;
+}
+
+@media (min-width: 880px) {
+    .car-section-container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    .car-section-container > *{
+        padding: 7em;
+    }
+
+    .sedan-section {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .luxury-section {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
