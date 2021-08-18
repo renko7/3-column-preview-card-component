@@ -9,7 +9,7 @@ body {
 }
 
 img {
-    min-width: 100%;
+    width: 50px;
     display: block;
 }
 
